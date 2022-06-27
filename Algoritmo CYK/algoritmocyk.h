@@ -1,7 +1,7 @@
 /*
 AUTOR:    Octavio Corral Tovar
 CURSO:    Lenguajes y Automatas 1
-PROGRAMA: Implementación de CYK
+PROGRAMA: ImplementaciÃ³n de CYK
 FECHA:    25/05/2022
 */
 
@@ -22,6 +22,7 @@ typedef struct {
 
 }rule;
 
+/*Declaracion de los mapas, sets y vectores*/
 typedef vector<rule> grammar;
 typedef set<int> myset;
 typedef map<int, myset> row;

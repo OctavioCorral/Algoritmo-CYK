@@ -47,6 +47,8 @@ public:
 
 	//metodos
 	bool cyk(string& w);
+	
+	/*Metodos de busqueda de cadenas*/
 
 	void buscar(myset& N, char letra, grammar& g) {
 		for (int i = 0; i < g.size(); i++) {

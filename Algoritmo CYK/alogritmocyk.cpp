@@ -1,7 +1,7 @@
 /*
 AUTOR:    Octavio Corral Tovar
 CURSO:    Lenguajes y Automatas 1
-PROGRAMA: Implementación de CYK
+PROGRAMA: ImplementaciÃ³n de CYK
 FECHA:    25/05/2022
 */
 
@@ -17,6 +17,9 @@ using namespace std;
 
 //Metodos
 CYKimplement::CYKimplement() {  //Contructor (Inicializacion)
+	
+	
+	/*Gramatica utilizada*/
 
 	//M
 	g.push_back(rule({'M', 'M', 'A'}));
@@ -97,17 +100,6 @@ CYKimplement::CYKimplement() {  //Contructor (Inicializacion)
 	g.push_back(rule{ '(' + 1000, '(', 0 });
 	g.push_back(rule{ ')' + 1000, ')', 0 });
 	g.push_back(rule{ '!' + 1000, '!', 0 });
-
-
-
-	/*g.push_back(rule({'S', 'A', 'B'}));
-	g.push_back(rule({ 'S', 'B', 'C' }));
-	g.push_back(rule({ 'A', 'B', 'A' }));
-	g.push_back(rule({ 'A', 'a', 0 }));
-	g.push_back(rule({ 'B', 'C', 'C' }));
-	g.push_back(rule({ 'B', 'b', 0 }));
-	g.push_back(rule({ 'C', 'A', 'B' }));
-	g.push_back(rule({ 'C', 'a', 0 }));*/
 
 }
 
